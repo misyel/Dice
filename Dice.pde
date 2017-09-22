@@ -120,13 +120,15 @@ void checkWin(){
   void win() {
     background(104, 161, 206);
     textSize(70);
-    text("You win!", 70, 250);
+    text("You win!", 100, 250);
     textSize(30);
-    text("Click to play again!",250,400);
+    text("Click to play again!",115,400);
+    /*
     if (mousePressed == true){
       endGame = false;
       started = true;
   }  
+  */
   }
 
   void mousePressed()
